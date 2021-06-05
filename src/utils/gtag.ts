@@ -1,4 +1,4 @@
-export const GA_TRACKING_ID = 'UA-150290652-3';
+export const GA_TRACKING_ID = 'UA-48802238-1';
 
 export const pageview = (url: string) => {
     // @ts-ignore
