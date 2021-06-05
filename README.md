@@ -31,7 +31,7 @@ I would like to update not to use next.js - I feel it is a bit limiting when try
 
 - Add favicon images
 - Work on mobile CSS for Skills Page and rotating cube
-- Work on mobile browser glitch with  reeact tparticles
+- Work on mobile browser glitch with  react tparticles
 
 ## Screenshots
 
