@@ -25,13 +25,14 @@ The technologies I used to code/build the project so far..
 
 ## Takeaways
 
-I would like to update not to use next.js - I feel it is a bit limiting when trying to export for using on my own domain Vercel seemed to be the only option for hosting so I need to learn a bit more about that...
+I would like to update and use react only rather than with next.js - I feel it is a bit limiting when trying to export the code for using on a personal domain. Vercel seems to be the only option for hosting. The pros of Vercel is that it ties nicely with Git and when the code is updated on the main repo it seemlessly updates on the Vercel server. However I need to learn a bit more about packaging up a next app for use on a private domain...
 
 ## To Do
 
-- Add favicon images
+- Add favicon images/logo
+- Add a loading image for when there is a delay when loading pages
 - Work on mobile CSS for Skills Page and rotating cube
-- Work on mobile browser glitch with  react tparticles
+- Work on mobile browser glitch with  react tsparticles
 
 ## Screenshots
 
