@@ -1,0 +1,85 @@
+.Index {
+
+  &__photo {
+    object-fit: fill;
+    border-radius: 100%;
+
+    &--vertical {
+      height: 500px;
+    }
+
+    &--horizontal {
+      width: 500px;
+    }
+  }
+
+  &__paragraph {
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      -webkit-animation-duration: .8s;
+      animation-duration: .8s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+      background-color: #fff;
+      bottom: 0;
+      content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      -webkit-transform: scale3d(0, 1, 1);
+      transform: scale3d(0, 1, 1);
+      -webkit-transform-origin: left center;
+      -ms-transform-origin: left center;
+      transform-origin: left center;
+      transition: .35s transform;
+    }
+
+    &:nth-child(1)::after {
+      -webkit-animation-name: animateStripfromLeft;
+      animation-name: animateStripfromLeft;
+    }
+
+    &:nth-child(2)::after {
+      -webkit-animation-delay: .2s;
+      animation-delay: .2s;
+      -webkit-animation-name: animateStripfromRight;
+      animation-name: animateStripfromRight;
+    }
+  }
+
+  &__tooltip {
+    transition: opacity 500ms ease-out, visibility 500ms ease-out !important;
+    z-index: -1 !important;
+    border: none !important;
+    background: inherit !important;
+
+    &.show {
+      opacity: 1 !important;
+    }
+  }
+
+  & a {
+    text-decoration: underline;
+  }
+}
+
+.__react_component_tooltip {
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 13px;
+  left: -999em;
+  opacity: 0;
+  padding: 8px 21px;
+  position: fixed;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  top: -999em;
+  visibility: hidden;
+  z-index: 999;
+}

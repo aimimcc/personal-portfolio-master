@@ -1,0 +1,40 @@
+.IconsSocial {
+  position: fixed;
+  margin-right: 15px;
+  transform: translateY(-50%);
+  top: 50%;
+  z-index: 40;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  -webkit-animation-name: fade-in;
+  animation-name: fade-in;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+
+  & img {
+    width: 30px;
+  }
+
+  &__github {
+    padding-bottom: 5px;
+  }
+
+  &__linkedin {
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+
+}
+
+@media screen and (max-width: $breakpoint-tablet - 1px) {
+  .IconsSocial {
+    display: none;
+  }
+}
+
+body.menu--open .IconsSocial {
+  display: none;
+}
