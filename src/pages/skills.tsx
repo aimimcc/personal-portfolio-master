@@ -29,8 +29,8 @@ const Skills = () => {
                     rel="noopener noreferrer">LinkedIn</a> profile for more information or just <Link
                     href={'/contact'}>
                     <a onClick={() => context?.setLinkHovered?.(false)}>contact</a></Link> me.</p></div>
-            <div className={'Skills__stripes-wrapper'}>
-                <div className={'Skills__stripe cube cube--skills is-spinning'}>
+            <div className={'Skills__cube-wrapper'}>
+                <div className={'Skills__cube cube cube--skills is-spinning'}>
                     <div className={'cube__face cube__face--front'}>CSS</div>
                     <div className={'cube__face cube__face--right'}>JavaScript</div>
                     <div className={'cube__face cube__face--back'}>GIT</div>
