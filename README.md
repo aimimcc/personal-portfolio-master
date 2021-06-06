@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-Website: https://aimimcconnell.co.uk/
+Website: https://aimimcconnell.co.uk/ is where it should live but it currently lives https://portfolio-website-delta-two.vercel.app/ on the Vercel server .. in the process of working this out...
 
 ## The Aim
 
@@ -22,6 +22,10 @@ The technologies I used to code/build the project so far..
 - Google Analitics
 - Vercel
 - Git
+
+## Takeaways
+
+I would like to update not to use next.js - I feel it is a bit limiting when trying to export for using on my own domain Vercel seemed to be the only option for hosting so I need to learn a bit more about that...
 
 ## To Do
 
