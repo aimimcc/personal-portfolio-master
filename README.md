@@ -4,7 +4,7 @@ Website: https://aimimcconnell.co.uk/ is where it should live but it currently l
 
 ## The Aim
 
-Create a personal portfolio that I can use t showcase my work but also learn some React, Next and Typescript
+Create a personal portfolio that I can use to showcase my work but also learn some React, Next and Typescript at the same time.
 
 ## Technical Stuff
 
