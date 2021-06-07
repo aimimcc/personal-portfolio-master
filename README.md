@@ -6,8 +6,6 @@ Website: https://aimimcconnell.co.uk/
 
 Create a personal portfolio that I can use t showcase my work but also learn some React, Next and Typescript
 
-
-
 ## Technical Stuff
 
 The technolgies I used to code/build the project so far..
@@ -22,9 +20,18 @@ The technolgies I used to code/build the project so far..
 - UI/UX Animations
 - CSS – preprocessed with SASS
 - Google Analitics
+- Vercel
+- Git
 
 ## To Do
 
-- Add Screen static images
 - Add favicon images
-- Work on mobile CSS for Skills cube
+- Work on mobile CSS for Skills Page and rotating cube
+- Work on mobile browser glitch with  reeact tparticles
+
+## Screenshots
+
+![Aimi McConnell Portfolio - Home/About](https://github.com/aimimcc/personal-portfolio-master/blob/main/public/static/home_about_page.png)
+![Aimi McConnell Portfolio - Skills](https://github.com/aimimcc/personal-portfolio-master/blob/main/public/static/skills_page.png)
+![Aimi McConnell Portfolio - Projects](https://github.com/aimimcc/personal-portfolio-master/blob/main/public/static/projects_page.png)
+![Aimi McConnell Portfolio - Contact](https://github.com/aimimcc/personal-portfolio-master/blob/main/public/static/contact_page.png)
