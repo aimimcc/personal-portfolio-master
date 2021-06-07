@@ -6,7 +6,7 @@ function Contact() {
         <Layout
             pageTitlePrefix='Contact'
             description="I love to talk! Let's create something awesome together!"
-            imageUrl={'https://aimimcconnell.co.uk/static/contact.png'}>
+            imageUrl={'https://aimimcconnell.co.uk/static/contact_page.png'}>
             <div className="Contact__socials">
                 <ul>
                     <li><a href="https://github.com/aimimcc" target="_blank"

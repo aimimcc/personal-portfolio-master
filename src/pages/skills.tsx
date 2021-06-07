@@ -18,12 +18,11 @@ const Skills = () => {
         <Layout
             pageTitlePrefix={'Skills & Experience'}
             description={'Front End Design enthusiast who dabbles with React and Angular. Open to new technologies and development opportunities'}
-            imageUrl={'https://aimimcconnell.co.uk/static/skills.png'}
+            imageUrl={'https://aimimcconnell.co.uk/static/skills_page.png'}
             fullscreen>
-            <div className={'Skills__text'}><p className={'Skills__paragraph'}>Front End Design enthusiast
-                who dabbles with React and Angular.
+            <div className={'Skills__text'}><p className={'Skills__paragraph'}>Front End Design enthusiast.
                 Open to new technologies and development opportunities.</p>
-                <p className={'Skills__paragraph'}>Passionate about data visualization and I enjoy turning complex problems into simple, beautiful and intuitive interface designs.</p>
+                <p className={'Skills__paragraph'}>Passionate about data visualization, I enjoy turning complex problems into simple, beautiful and intuitive interface designs.</p>
                 <p className={'Skills__paragraph'}>Visit my <a
                     href='https://www.linkedin.com/in/aimi-mcconnell-044a7011a/'
                     target="_blank"

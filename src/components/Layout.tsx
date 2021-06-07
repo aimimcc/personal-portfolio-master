@@ -25,7 +25,7 @@ export const Layout = ({children, pageTitlePrefix, fullscreen, description, imag
         }
     );
 
-    const image = imageUrl || 'https://aimimcconnell.co.uk/static/about';
+    const image = imageUrl || 'https://aimimcconnell.co.uk/static/home_about_page';
 
     return <>
         <Head>

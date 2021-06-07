@@ -1,9 +1,5 @@
 {
-  "background": {
-    "color": {
-      "value": "#282c34"
-    }
-  },
+
   "fpsLimit": 60,
   "interactivity": {
     "detectsOn": "window",

@@ -10,7 +10,7 @@ const Projects = () => {
     <Layout
       pageTitlePrefix={`Projects`}
       description={'Side projects that I sometimes work on when I have any spare time'}
-      imageUrl={'https://aimimcconnell.co.uk/static/projects.png'}>
+      imageUrl={'https://aimimcconnell.co.uk/static/projects_page.png'}>
       <div className="Projects">
         <div>
           <div className="Projects__paragraph">
