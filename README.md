@@ -8,7 +8,7 @@ Create a personal portfolio that I can use t showcase my work but also learn som
 
 ## Technical Stuff
 
-The technolgies I used to code/build the project so far..
+The technologies I used to code/build the project so far..
 
 - React
 - Typescript
